@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bridgerton - Personajes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="logo" href="../index.html">BRIDGERTON</a>
+  <ul class="navlinks">
+    <li><a href="laserie.html">La serie</a></li>
+    <li><a href="personajes.html" class="active">Personajes</a></li>
+    <li><a href="temporadas.html">Temporadas</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="ladywhistledown.html">Lady Whistledown</a></li>
+    <li><a href="login.html">Iniciar Sesión</a></li>
+  </ul>
+</nav>
+
+<main class="page-container" style="max-width: 1100px; margin: 40px auto; padding: 0 5vw;">
+  <h1 style="font-size: 32px; color: var(--teal-dark); margin-bottom: 8px;">Personajes</h1>
+  <p style="color: var(--ink-soft); margin-bottom: 36px;">Conocé a las figuras más destacadas de la alta sociedad londinense. Hacé clic en cualquier personaje para ver su historia.</p>
+
+  <div class="teaser-grid" style="grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); text-align: center;">
+
+    <a href="#modal-anthony" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes2.avif" alt="Anthony Bridgerton" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Anthony Bridgerton</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">El Vizconde</p>
+    </a>
+
+    <a href="#modal-colin" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes4.webp" alt="Colin Bridgerton" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Colin Bridgerton</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">El viajero</p>
+    </a>
+
+    <a href="#modal-benedict" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes5.jpg" alt="Benedict Bridgerton" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Benedict Bridgerton</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">El segundo hermano</p>
+    </a>
+
+    <a href="#modal-daphne" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes1.avif" alt="Daphne Bridgerton" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Daphne Bridgerton</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La primogénita</p>
+    </a>
+
+    <a href="#modal-eloise" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes6.webp" alt="Eloise Bridgerton" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Eloise Bridgerton</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La quinta hija</p>
+    </a>
+
+    <a href="#modal-francesca" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes7.webp" alt="Francesca Bridgerton" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Francesca Bridgerton</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La sexta hija</p>
+    </a>
+
+    <a href="#modal-violet" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes12.jpg" alt="Violet Bridgerton" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Violet Bridgerton</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La madre</p>
+    </a>
+
+    <a href="#modal-penelope" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes3.webp" alt="Penelope Featherington" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Penelope Featherington</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La joven perspicaz</p>
+    </a>
+
+    <a href="#modal-kate" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes8.jpg" alt="Kate Sharma" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Kate Sharma</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">Esposa de Anthony</p>
+    </a>
+
+    <a href="#modal-sophie" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes9.webp" alt="Sophie Baek" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Sophie Baek</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La enamorada</p>
+    </a>
+
+    <a href="#modal-reina" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes11.jpg" alt="Reina Carlota" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Reina Carlota</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La soberana</p>
+    </a>
+
+    <a href="#modal-danbury" class="teaser-card" style="padding: 20px; align-items: center; text-decoration: none; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s;">
+      <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 12px;">
+        <img src="../Imagenes/personajes10.jpg" alt="Lady Danbury" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <h3 style="font-size: 16px; margin-bottom: 4px; color: var(--ink);">Lady Danbury</h3>
+      <p style="font-size: 12px; color: var(--ink-soft); margin: 0;">La mentora</p>
+    </a>
+
+  </div>
+</main>
+
+
+<div id="modal-anthony" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-1.png" alt="Anthony Bridgerton">
+    <h3>Anthony Bridgerton</h3>
+    <p>Como el vizconde Bridgerton, Anthony asumió las responsabilidades de la familia tras la muerte prematura de su padre. Aunque al principio se mostró reacio al amor verdadero, buscando un matrimonio únicamente por deber, su intensa historia con Kate Sharma cambió su perspectiva para siempre.</p>
+  </div>
+</div>
+
+<div id="modal-colin" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-2.png" alt="Colin Bridgerton">
+    <h3>Colin Bridgerton</h3>
+    <p>Apasionado por los viajes y la aventura, Colin es el tercer hermano Bridgerton. Carismático y de buen corazón, pasó años buscando su propósito en el mundo antes de darse cuenta de que el verdadero amor siempre había estado muy cerca de él, de la mano de su querida amiga Penelope.</p>
+  </div>
+</div>
+
+<div id="modal-benedict" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-3.png" alt="Benedict Bridgerton">
+    <h3>Benedict Bridgerton</h3>
+    <p>El segundo hermano Bridgerton posee un espíritu libre y bohemio, fuertemente inclinado hacia el arte y la pintura. Prefiere mantenerse al margen de las estrictas reglas de la alta sociedad mientras explora su creatividad y su propia identidad.</p>
+  </div>
+</div>
+
+<div id="modal-daphne" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-4.png" alt="Daphne Bridgerton">
+    <h3>Daphne Bridgerton</h3>
+    <p>La primogénita de las mujeres Bridgerton. Debutó en la sociedad con gran gracia y elegancia, convirtiéndose rápidamente en el diamante de la temporada. Su matrimonio con Simon Basset, el duque de Hastings, comenzó como un ardid fingido que terminó en un profundo amor.</p>
+  </div>
+</div>
+
+<div id="modal-eloise" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-5.webp" alt="Eloise Bridgerton">
+    <h3>Eloise Bridgerton</h3>
+    <p>Ingeniosa, ferozmente independiente y totalmente opuesta a los convencionalismos de su época. A Eloise le interesan mucho más los libros, la lectura y la educación superior que los bailes de temporada y la búsqueda de un marido.</p>
+  </div>
+</div>
+
+<div id="modal-francesca" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-6.png" alt="Francesca Bridgerton">
+    <h3>Francesca Bridgerton</h3>
+    <p>La sexta hermana Bridgerton se destaca por su personalidad más reservada, tranquila y misteriosa. Disfruta de la música y la privacidad, lo que la diferencia del bullicioso estilo de vida del resto de su familia en la alta sociedad.</p>
+  </div>
+</div>
+
+<div id="modal-violet" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-7.png" alt="Violet Bridgerton">
+    <h3>Violet Bridgerton</h3>
+    <p>La matriarca de la familia Bridgerton. Viuda amorosa y dedicada, Violet guía y aconseja a sus hijos con una mezcla perfecta de firmeza y ternura, buscando siempre que cada uno de ellos encuentre un matrimonio basado en el verdadero amor.</p>
+  </div>
+</div>
+
+<div id="modal-penelope" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-8.png" alt="Penelope Featherington">
+    <h3>Penelope Featherington</h3>
+    <p>A menudo ignorada o subestimada en los salones de baile, Penelope es una joven perspicaz, de gran intelecto y dueña del secreto más grande de Londres: es la mente maestra detrás de las publicaciones de Lady Whistledown.</p>
+  </div>
+</div>
+
+<div id="modal-kate" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-9.jpg" alt="Kate Sharma">
+    <h3>Kate Sharma</h3>
+    <p>Directa, testaruda y protectora con su familia, Kate llegó desde la India dispuesta a asegurar el futuro de su hermana menor. Sin embargo, su encuentro con el vizconde Anthony Bridgerton desató un romance tan desafiante como apasionado.</p>
+  </div>
+</div>
+
+<div id="modal-sophie" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-10.jpg" alt="Sophie Baek">
+    <h3>Sophie Baek</h3>
+    <p>Una joven de origen noble pero convertida en criada debido a circunstancias adversas. De gran bondad y resiliencia, su camino se cruza con el de Benedict Bridgerton en un mágico baile de máscaras que cambiará su destino.</p>
+  </div>
+</div>
+
+<div id="modal-reina" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-11.png" alt="Reina Carlota">
+    <h3>Reina Carlota</h3>
+    <p>La soberana indiscutible de la alta sociedad londinense. Amante de los chismes, los cotilleos de Lady Whistledown y los grandes espectáculos, la Reina Carlota dictamina quiénes brillan y quiénes decaen en cada temporada.</p>
+  </div>
+</div>
+
+<div id="modal-danbury" class="character-modal">
+  <a href="#" class="modal-backdrop"></a>
+  <div class="modal-content">
+    <a href="#" class="modal-close">&times;</a>
+    <img src="../Imagenes/personajes1-12.webp" alt="Lady Danbury">
+    <h3>Lady Danbury</h3>
+    <p>Una de las figuras más respetadas, influyentes y perspicaces de Londres. Con su lengua afilada y su gran sabiduría, actúa como mentora y protectora de varias de las jóvenes debutantes y miembros de la realeza.</p>
+  </div>
+</div>
+
+
+<footer>
+<div class="footer-container">
+    <div class="footer-logo">
+        <a href="../index.html" class="bridgerton-brand">BRIDGERTON</a> 
+    </div>
+    <div class="footer-social">
+        <a href="https://www.instagram.com/bridgertonnetflix/" target="_blank" class="social-link" aria-label="Instagram">
+            <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagram
+        </a>
+        <a href="https://www.tiktok.com/@bridgertonnetflix" target="_blank" class="social-link" aria-label="TikTok">
+            <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.5.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-2.1.02-4.21.03-6.31V.02z"/></svg>
+            TikTok
+        </a>
+        <a href="https://www.netflix.com/ar/title/80232398" target="_blank" class="social-link" aria-label="Netflix">
+                <svg width="18" height="18" viewBox="0 0 112 128" fill="currentColor" style="vertical-align: middle;">
+                    <path d="M0 0h31.2v128H0z" opacity="0.6"/>
+                    <path d="M80.8 0h31.2v128H80.8z"/>
+                    <path d="M31.2 0h17.6l32 128H63.2z" opacity="0.85"/>
+                </svg>
+                Netflix
+            </a>
+    </div>
+</div>
+</footer>
+
+</body>
+</html>
