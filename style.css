@@ -30,7 +30,7 @@ html, body {
 
 body {
   background: var(--cream);
-  background-image: url('imagenes/fondo.jpg') !important;
+  background-image: url('Imagenes/fondo.jpg') !important;
   background-repeat: repeat !important;
   background-size: auto !important;
   background-attachment: fixed !important;
